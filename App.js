@@ -15,7 +15,6 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
-        {/* options={{ headerShown: false }} tira a barra superior do app, ideal para o Login */}
         <Stack.Screen
           name="Login"
           component={Login}
